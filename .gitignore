@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# SvelteKit build output
+.svelte-kit/
+
+# Vite build output
+/dist/
+.vite/
+
+# Deployment directories
+.vercel/
+.netlify/
+.wrangler/
+
+# Build output (common across several build tools)
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite config (timestamp)
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Tailwind CSS output
+/public/build/
+
+# TypeScript output (in case it's not in 'dist' or 'build')
+out/
+
+# IDE files
+.vscode/
+
+# Log files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Editor temporary files
+*.swp
+
+# Temporary files
+*.log
