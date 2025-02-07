@@ -1,5 +1,8 @@
-<script>
+<script lang="ts">
     
+    const a: Number = 0;
+
+    console.log(a);
 </script>
 
 <main class="bg-gray-100 text-gray-900 flex flex-col items-center justify-center min-h-screen text-center p-6">
